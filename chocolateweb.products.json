@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Dark Chocolate Delight",
+    "description": "Indulge in the rich and decadent flavor of our Dark Chocolate Delight. Crafted from the finest cocoa beans, this chocolate bar offers a smooth and intense taste that will tantalize your senses.",
+    "bulletPoints": [
+      "Made from premium quality cocoa beans",
+      "Intensely rich flavor profile",
+      "Perfect for dark chocolate enthusiasts",
+      "Ideal for gifting or personal enjoyment"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 399, "discounted": 349 },
+    "quantity": 50,
+    "rating": null
+  },
+  {
+    "title": "Milk Chocolate Bliss",
+    "description": "Experience the creamy delight of our Milk Chocolate Bliss. Made from the finest milk and cocoa blend, this chocolate bar delivers a velvety smooth texture with a hint of sweetness.",
+    "bulletPoints": [
+      "Crafted from premium milk and cocoa blend",
+      "Velvety smooth texture",
+      "Perfect for those who love creamy chocolates",
+      "Great for sharing with friends and family"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 299, "discounted": 249 },
+    "quantity": 40,
+    "rating": null
+  },
+  {
+    "title": "Hazelnut Crunch Bar",
+    "description": "Savor the perfect blend of smooth chocolate and crunchy hazelnuts with our Hazelnut Crunch Bar. Each bite is a delightful combination of rich cocoa and roasted hazelnuts.",
+    "bulletPoints": [
+      "Crunchy hazelnuts enveloped in smooth chocolate",
+      "Irresistible blend of flavors and textures",
+      "Ideal for those who enjoy nutty chocolates",
+      "Great for snacking or dessert"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 449, "discounted": 399 },
+    "quantity": 35,
+    "rating": null
+  },
+  {
+    "title": "Caramel Dream Bar",
+    "description": "Treat yourself to the luscious taste of our Caramel Dream Bar. Each bite is a symphony of rich caramel and smooth chocolate, creating a heavenly indulgence.",
+    "bulletPoints": [
+      "Luscious caramel enveloped in smooth chocolate",
+      "Heavenly combination of flavors",
+      "Perfect for caramel lovers",
+      "An ideal gift for any occasion"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 379, "discounted": 329 },
+    "quantity": 45,
+    "rating": null
+  },
+  {
+    "title": "White Chocolate Elegance",
+    "description": "Discover the exquisite taste of our White Chocolate Elegance. Made from the finest cocoa butter and cream, this chocolate bar offers a luxurious and creamy flavor profile.",
+    "bulletPoints": [
+      "Made from premium cocoa butter and cream",
+      "Luxurious and creamy flavor",
+      "Ideal for white chocolate connoisseurs",
+      "Perfect for adding elegance to any occasion"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 429, "discounted": 379 },
+    "quantity": 30,
+    "rating": null
+  },
+  {
+    "title": "Almond Joy Bar",
+    "description": "Experience the joy of almonds with our Almond Joy Bar. Each bite is a delightful combination of smooth chocolate and crunchy almonds, offering a satisfying treat for any occasion.",
+    "bulletPoints": [
+      "Crunchy almonds enveloped in smooth chocolate",
+      "Delightful combination of flavors and textures",
+      "Perfect for almond lovers",
+      "Great for snacking or dessert"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 359, "discounted": 319 },
+    "quantity": 55,
+    "rating": null
+  },
+  {
+    "title": "Orange Zest Infusion",
+    "description": "Experience a burst of citrus with our Orange Zest Infusion chocolate bar. Each bite offers a perfect blend of tangy orange flavor and smooth chocolate, creating a refreshing treat.",
+    "bulletPoints": [
+      "Tangy orange flavor infused with smooth chocolate",
+      "Refreshing and delightful taste",
+      "Ideal for citrus lovers",
+      "Great for uplifting your mood"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 389, "discounted": 339 },
+    "quantity": 25,
+    "rating": null
+  },
+  {
+    "title": "Raspberry Truffle",
+    "description": "Indulge in the luxurious taste of our Raspberry Truffle. Each bite is a delightful combination of tart raspberries and smooth chocolate, offering a decadent treat for any occasion.",
+    "bulletPoints": [
+      "Tart raspberries blended with smooth chocolate",
+      "Decadent and luxurious flavor",
+      "Perfect for raspberry lovers",
+      "An ideal gift for chocolate connoisseurs"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 469, "discounted": 419 },
+    "quantity": 20,
+    "rating": null
+  },
+  {
+    "title": "Mint Chocolate Delight",
+    "description": "Refresh your senses with our Mint Chocolate Delight. Each bite offers a perfect balance of cool mint and smooth chocolate, creating a refreshing and indulgent treat.",
+    "bulletPoints": [
+      "Cool mint flavor blended with smooth chocolate",
+      "Refreshing and indulgent taste",
+      "Ideal for mint chocolate lovers",
+      "Great for freshening your breath"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 349, "discounted": 299 },
+    "quantity": 60,
+    "rating": null
+  },
+  {
+    "title": "Salted Caramel Indulgence",
+    "description": "Experience the perfect blend of sweet and salty with our Salted Caramel Indulgence. Each bite is a harmonious combination of rich caramel and sea salt, offering a truly indulgent treat.",
+    "bulletPoints": [
+      "Rich caramel with a hint of sea salt",
+      "Perfect balance of sweet and salty",
+      "Ideal for caramel lovers",
+      "Great for satisfying your sweet tooth cravings"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 389, "discounted": 339 },
+    "quantity": 40,
+    "rating": null
+  },
+  {
+    "title": "Peanut Butter Crunch",
+    "description": "Enjoy the classic combination of peanut butter and chocolate with our Peanut Butter Crunch bar. Each bite is a perfect balance of creamy peanut butter and smooth chocolate, offering a satisfying treat.",
+    "bulletPoints": [
+      "Creamy peanut butter blended with smooth chocolate",
+      "Classic and satisfying flavor combination",
+      "Ideal for peanut butter lovers",
+      "Great for snacking or dessert"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 429, "discounted": 379 },
+    "quantity": 30,
+    "rating": null
+  },
+  {
+    "title": "Coconut Dream Bar",
+    "description": "Escape to the tropics with our Coconut Dream Bar. Each bite is a delightful blend of creamy coconut and smooth chocolate, offering a taste of paradise in every bite.",
+    "bulletPoints": [
+      "Creamy coconut blended with smooth chocolate",
+      "Tropical and indulgent flavor",
+      "Ideal for coconut lovers",
+      "Perfect for adding a taste of paradise to your day"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 369, "discounted": 319 },
+    "quantity": 35,
+    "rating": null
+  },
+  {
+    "title": "Cherry Delight",
+    "description": "Experience the delightful taste of cherries with our Cherry Delight bar. Each bite is a perfect blend of tart cherries and smooth chocolate, offering a refreshing treat.",
+    "bulletPoints": [
+      "Tart cherries blended with smooth chocolate",
+      "Refreshing and delightful flavor",
+      "Ideal for cherry lovers",
+      "Great for snacking or dessert"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 449, "discounted": 399 },
+    "quantity": 25,
+    "rating": null
+  },
+  {
+    "title": "Espresso Crunch",
+    "description": "Awaken your senses with our Espresso Crunch bar. Each bite is a perfect combination of bold espresso and smooth chocolate, offering a caffeinated treat to kickstart your day.",
+    "bulletPoints": [
+      "Bold espresso flavor blended with smooth chocolate",
+      "Energizing and satisfying taste",
+      "Ideal for coffee lovers",
+      "Great for an afternoon pick-me-up"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 409, "discounted": 359 },
+    "quantity": 20,
+    "rating": null
+  },
+  {
+    "title": "Toffee Crunch",
+    "description": "Indulge in the rich and buttery taste of our Toffee Crunch bar. Each bite is a perfect blend of crunchy toffee and smooth chocolate, offering a satisfying treat for any occasion.",
+    "bulletPoints": [
+      "Crunchy toffee blended with smooth chocolate",
+      "Rich and buttery flavor",
+      "Ideal for toffee lovers",
+      "Great for snacking or dessert"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 379, "discounted": 329 },
+    "quantity": 30,
+    "rating": null
+  },
+  {
+    "title": "Chili Infusion",
+    "description": "Add a kick to your chocolate experience with our Chili Infusion bar. Each bite is a perfect blend of spicy chili and smooth chocolate, offering a unique and fiery treat.",
+    "bulletPoints": [
+      "Spicy chili infused with smooth chocolate",
+      "Fiery and bold flavor",
+      "Ideal for adventurous chocolate lovers",
+      "Great for adding excitement to your day"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 459, "discounted": 409 },
+    "quantity": 35,
+    "rating": null
+  },
+  {
+    "title": "Sea Salt Caramel",
+    "description": "Experience the perfect balance of sweet and salty with our Sea Salt Caramel bar. Each bite is a delightful combination of rich caramel, sea salt, and smooth chocolate, offering a truly indulgent treat.",
+    "bulletPoints": [
+      "Rich caramel with a hint of sea salt",
+      "Perfect balance of sweet and salty",
+      "Ideal for caramel lovers",
+      "Great for satisfying your sweet tooth cravings"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 389, "discounted": 339 },
+    "quantity": 40,
+    "rating": null
+  },
+  {
+    "title": "Pistachio Pleasure",
+    "description": "Indulge in the rich and nutty taste of our Pistachio Pleasure bar. Each bite is a delightful combination of crunchy pistachios and smooth chocolate, offering a satisfying treat for any occasion.",
+    "bulletPoints": [
+      "Crunchy pistachios blended with smooth chocolate",
+      "Rich and nutty flavor",
+      "Ideal for pistachio lovers",
+      "Great for snacking or dessert"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 439, "discounted": 389 },
+    "quantity": 25,
+    "rating": null
+  },
+  {
+    "title": "Blueberry Bliss",
+    "description": "Experience the burst of blueberries with our Blueberry Bliss bar. Each bite is a perfect blend of tart blueberries and smooth chocolate, offering a refreshing and indulgent treat.",
+    "bulletPoints": [
+      "Tart blueberries blended with smooth chocolate",
+      "Refreshing and indulgent flavor",
+      "Ideal for blueberry lovers",
+      "Great for snacking or dessert"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 449, "discounted": 399 },
+    "quantity": 30,
+    "rating": null
+  },
+  {
+    "title": "Banana Split",
+    "description": "Indulge in the classic flavors of our Banana Split bar. Each bite is a perfect blend of creamy banana, rich chocolate, and sweet strawberries, offering a delightful treat reminiscent of the classic dessert.",
+    "bulletPoints": [
+      "Creamy banana with rich chocolate and sweet strawberries",
+      "Delightful and nostalgic flavor",
+      "Perfect for banana split enthusiasts",
+      "Great for satisfying your sweet tooth cravings"
+    ],
+    "thumbnail": {
+      "url": "https://res.cloudinary.com/dhlmdbx4t/image/upload/v1710157054/ChocolateWeb/tohwy1trgvnammlnefpy.jpg",
+      "id": "ChocolateWeb/tohwy1trgvnammlnefpy"
+    },
+    "images": [],
+    "price": { "base": 479, "discounted": 429 },
+    "quantity": 20,
+    "rating": null
+  }
+]
