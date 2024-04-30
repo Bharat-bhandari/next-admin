@@ -41,7 +41,7 @@ const Product = async ({ params }) => {
   }
 
   return (
-    <div className="px-[20%] pt-12">
+    <div className="px-[15%] pt-12">
       <ProductView
         title={productInfo.title}
         description={productInfo.description}

@@ -13,9 +13,8 @@ export default function ProductView({
   price,
   sale,
 }) {
-  console.log("dc", images);
   return (
-    <div className="flex flex-col gap-2 lg:flex-row md:gap-4">
+    <div className="flex flex-col gap-2 lg:flex-row md:gap-12">
       <div className="self-center flex-1 lg:self-start">
         {/* Product Image Slider */}
         <ProductImageGallery images={images} />
@@ -32,7 +31,7 @@ export default function ProductView({
             })}
         </div>
 
-        <div className="flex items-center mb-2 space-x-2">
+        <div className="flex items-center mb-2 space-x-2 font-serif">
           <p className="text-xl line-through">{formatPrice(price.base)}</p>
           <p className="text-xl font-semibold">
             {formatPrice(price.discounted)}
@@ -48,23 +47,4 @@ export default function ProductView({
       </div>
     </div>
   );
-}
-
-{
-  /* <Slider
-        {...settings}
-        key={images.length}
-        afterChange={(currentSlide) => {
-          setCurrentSlide(currentSlide);
-        }}
-        ref={slider}
-      >
-        {images.map((img, index) => {
-          return (
-            <div key={index}>
-              <Image src={img} alt="img" width={500} height={500} />
-            </div>
-          );
-        })}
-      </Slider> */
 }

@@ -62,7 +62,12 @@ const Nav = () => {
             </NavModal>
           )} */}
           <div className="hidden gap-6 md:flex ">
-            <div className="navitem1">SHOP</div>
+            <Link
+              href={"/shop"}
+              className="text-white border-b border-transparent hover:text-white hover:border-white focus:outline-none"
+            >
+              SHOP
+            </Link>
             <div className="navitem2">WHOLESALE</div>
             <div className="navitem3">TEA OF MONTH</div>
           </div>
