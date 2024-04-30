@@ -2,7 +2,7 @@
 
 import { authOptions } from "@/utils/authOptions";
 import { getServerSession } from "next-auth";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 
 const Dashboard = () => {
