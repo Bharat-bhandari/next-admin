@@ -1,26 +1,14 @@
-import ProfileForm from "@/components/ProfilePage/ProfileForm";
+import Profile from "@/components/ProfilePage/Profile";
 import React from "react";
 import Link from "next/link";
 
 const ProfilePage = () => {
   return (
-    // <ProfileForm
-    //   avatar=""
-    //   email="bharatbhandari@gmail.com"
-    //   id=""
-    //   name="Bharat"
-    // />
-
     <div>
       {/* <EmailVerificationBanner verified={profile.verified} id={profile.id} /> */}
       <div className="flex py-4 space-y-4 mx-[8%] mt-10">
         <div className="p-4 space-y-4 border-r border-gray-700">
-          <ProfileForm
-            avatar=""
-            email="bharatbhandari@gmail.com"
-            id=""
-            name="Bharat"
-          />
+          <Profile />
         </div>
 
         <div className="flex-1 p-4">

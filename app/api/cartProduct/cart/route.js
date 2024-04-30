@@ -6,7 +6,6 @@ import mongoose, { isValidObjectId } from "mongoose";
 export const POST = async (request) => {
   try {
     const session = await getUserSession();
-    // console.log("hekk", session);
 
     const user = { ...session, _id: session._id.toString() };
 
