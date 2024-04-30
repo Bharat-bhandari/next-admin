@@ -1,16 +1,30 @@
+"use client";
+
 import { authOptions } from "@/utils/authOptions";
 import { getServerSession } from "next-auth";
-import { redirect } from "next/navigation";
-import React from "react";
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
 
-const Dashboard = async () => {
-  const session = await getServerSession(authOptions);
+const Dashboard = () => {
+  const router = useRouter();
 
-  console.log("sesssssiom in dashborad", session);
+  useEffect(() => {
+    const fetchSession = async () => {
+      try {
+        const session = await getServerSession(authOptions);
+        console.log("Session in dashboard:", session);
 
-  const isAdmin = session?.user?.role === "admin";
+        if (!session?.user?.role === "admin") {
+          router.push("/");
+        }
+      } catch (error) {
+        console.error("Error fetching session:", error);
+      }
+    };
 
-  if (!isAdmin) return redirect("/");
+    fetchSession();
+  }, []);
+
   return <div>Dashboard</div>;
 };
 
