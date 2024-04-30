@@ -1,5 +1,5 @@
 import { Avatar } from "@material-tailwind/react";
-import { PencilIcon } from "@heroicons/react/24/solid";
+// import { PencilIcon } from "@heroicons/react/24/solid";
 
 function ProfileAvatarInput({ avatar, nameInitial, onChange }) {
   return (
@@ -26,7 +26,7 @@ function ProfileAvatarInput({ avatar, nameInitial, onChange }) {
             hidden
             accept="image/*"
           />
-          <PencilIcon className="w-6 h-6 p-1 cursor-pointer" />
+          {/* <PencilIcon className="w-6 h-6 p-1 cursor-pointer" /> */}
         </label>
       </div>
     </div>

@@ -7,7 +7,6 @@ import { PiBagSimple } from "react-icons/pi";
 import { signIn, signOut, useSession, getProviders } from "next-auth/react";
 import { IoIosArrowDown } from "react-icons/io";
 
-import NavModal from "./NavModal";
 import CartIcon from "./CartIcon";
 
 const NavUi = ({ cartItemsCount }) => {
@@ -33,7 +32,7 @@ const NavUi = ({ cartItemsCount }) => {
 
   return (
     <div className="sticky top-0 z-20 text-sm text-white bg-black1">
-      <div className="grid grid-cols-3 px-[2.5%] py-2">
+      <div className="grid grid-cols-3 px-[2.5%] py-1">
         <div className="flex items-center gap-[20%]">
           <button onClick={() => setShowModal(true)}>
             <svg
@@ -69,8 +68,18 @@ const NavUi = ({ cartItemsCount }) => {
             >
               SHOP
             </Link>
-            <div className="navUiitem2">WHOLESALE</div>
-            <div className="navUiitem3">TEA OF MONTH</div>
+            <Link
+              href={"/"}
+              className="text-white border-b border-transparent hover:text-white hover:border-white focus:outline-none"
+            >
+              BLOGS
+            </Link>
+            <Link
+              href={"/"}
+              className="text-white border-b border-transparent hover:text-white hover:border-white focus:outline-none"
+            >
+              CONTACT US
+            </Link>
           </div>
         </div>
         <div className="flex justify-center">

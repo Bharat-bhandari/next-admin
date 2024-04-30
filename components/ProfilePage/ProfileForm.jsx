@@ -2,7 +2,9 @@
 
 import React, { useState } from "react";
 import { Button, Input } from "@material-tailwind/react";
-import ProfileAvatarInput from "@components/ProfileAvatarInput";
+import ProfileAvatarInput from "./ProfileAvatarInput";
+import profile from "@/assets/images/Profile/profile.png";
+import Image from "next/image";
 
 const ProfileForm = ({ name, avatar, email }) => {
   const [avatarFile, setAvatarFile] = useState();
@@ -12,14 +14,16 @@ const ProfileForm = ({ name, avatar, email }) => {
   const showSubmitButton = avatarSource !== avatar || userName !== name;
 
   return (
-    <form className="space-y-6">
-      <ProfileAvatarInput
-        onChange={setAvatarFile}
-        nameInitial={name[0]}
-        avatar={avatarSource}
+    <form>
+      <Image
+        className="mb-6 w-36 h-36 "
+        // onChange={setAvatarFile}
+        // nameInitial={name[0]}
+        src={profile}
       />
+      <div className="text-sm">Name: {name}</div>
       <div className="text-sm">Email: {email}</div>
-      <Input
+      {/* <Input
         onChange={({ target }) => setUserName(target.value)}
         label="Name"
         value={userName}
@@ -33,7 +37,7 @@ const ProfileForm = ({ name, avatar, email }) => {
         >
           Submit
         </Button>
-      ) : null}
+      ) : null} */}
     </form>
   );
 };

@@ -9,7 +9,7 @@ const MainLayout = async ({ children }) => {
       <html lang="en">
         <body
           suppressHydrationWarning={true}
-          className="text-white font-playfair bg-black2 "
+          className="text-white font-playfair "
         >
           {/* <Nav /> */}
           <main>{children}</main>
