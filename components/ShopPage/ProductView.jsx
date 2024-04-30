@@ -41,7 +41,7 @@ export default function ProductView({
           </p>
         </div>
 
-        <div className="flex py-4">
+        <div className="flex py-4 pb-40">
           <BuyingOptions />
         </div>
       </div>

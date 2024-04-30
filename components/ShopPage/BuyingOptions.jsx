@@ -1,11 +1,23 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState, useTransition } from "react";
 import { Button } from "@material-tailwind/react";
 import CartCountUpdater from "./CartCountUpdater";
+import { useParams } from "next/navigation";
+import axios from "axios";
+import { useSession, signIn } from "next-auth/react";
+import { toast } from "react-toastify";
 
 export default function BuyingOptions() {
   const [quantity, setQuantity] = useState(1);
+  const [isPending, startTransition] = useTransition();
+
+  const { product } = useParams();
+
+  const { data: session } = useSession();
+  // console.log("session", session);
+
+  const productId = product[1];
 
   const handleIncrement = () => {
     setQuantity((prevCount) => prevCount + 1);
@@ -14,6 +26,30 @@ export default function BuyingOptions() {
   const handleDecrement = () => {
     if (quantity === 0) return;
     setQuantity((prevCount) => prevCount - 1);
+  };
+
+  const addToCart = async () => {
+    if (!productId) return;
+
+    if (!session) {
+      await signIn();
+    }
+    try {
+      const response = await axios.post("/api/cartProduct/cart", {
+        productId,
+        quantity,
+      });
+
+      const { error } = response.data;
+      if (!response.ok && error) {
+        toast.error(error);
+      }
+
+      // router.refresh();
+    } catch (error) {
+      console.error("Error:", error);
+      // Handle error here if needed
+    }
   };
 
   return (
@@ -36,7 +72,14 @@ export default function BuyingOptions() {
         </button>
       </div> */}
 
-      <Button variant="text" className="bg-gray-200">
+      <Button
+        onClick={() => {
+          startTransition(async () => await addToCart());
+        }}
+        variant="text"
+        disabled={isPending}
+        className="bg-gray-200"
+      >
         Add to Cart
       </Button>
       <Button color="amber" className="text-white rounded-full bg-black2">
