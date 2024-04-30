@@ -6,10 +6,12 @@ import axios from "axios";
 import { useSession, signIn } from "next-auth/react";
 import { toast } from "react-toastify";
 import { useTransition } from "react";
+import { useRouter } from "next/navigation";
 
 const ProductCard = ({ product }) => {
   const { data: session } = useSession();
   const [isPending, startTransition] = useTransition();
+  const router = useRouter();
 
   const addToCart = async () => {
     if (!session) {
@@ -27,7 +29,7 @@ const ProductCard = ({ product }) => {
         toast.error(error);
       }
 
-      // router.refresh();
+      router.refresh();
     } catch (error) {
       console.error("Error:", error);
       // Handle error here if needed
