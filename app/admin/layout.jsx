@@ -1,15 +1,11 @@
-import { getUserSession } from "@/utils/getUserSession";
 import { redirect } from "next/navigation";
 import AdminSidebar from "@/components/AdminPage/AdminSideBar";
+import { getIsAdmin } from "@/utils/getIsAdmin";
 
 const AdminLayout = async ({ children }) => {
-  const userSession = await getUserSession();
+  // const isAdmin = await getIsAdmin();
 
-  // console.log(userSession);
-
-  const isAdmin = userSession?.role === "admin";
-
-  if (!isAdmin) return redirect("/");
+  // if (!isAdmin) return redirect("/");
 
   return (
     <>
