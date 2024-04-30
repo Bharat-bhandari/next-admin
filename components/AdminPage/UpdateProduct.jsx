@@ -57,7 +57,7 @@ const UpdateProduct = ({ product }) => {
       });
 
       if (values.thumbnail) {
-        await removeImageFromCloud(product.thumbnail.id);
+        // await removeImageFromCloud(product.thumbnail.id);
         formData.append("thumbnail", values.thumbnail);
       }
 

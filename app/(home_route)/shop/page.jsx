@@ -14,7 +14,6 @@ const fetchLatestProducts = async () => {
       id: product._id.toString(),
       title: product.title,
       description: product.description,
-      category: product.category,
       thumbnail: product.thumbnail.url,
       price: product.price,
       sale: product.sale,
@@ -32,10 +31,10 @@ const ShopPage = async () => {
 
   return (
     <>
-      <div className="mt-0 text-black bg-white px-[8%]">
+      <div className=" px-[8%]">
         <Header />
         <div className="mt-20 sm:grid sm:grid-cols-12">
-          <div className="col-span-12">
+          <div className="col-span-12 mb-32">
             <Products products={parsedProducts} />
           </div>
         </div>
