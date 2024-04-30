@@ -34,6 +34,7 @@ export const authOptions = {
           email: profile.email,
           username: profile.name,
           image: profile.picture,
+          role: "user",
         });
       }
       // 4. Return true to allow sign in
@@ -47,16 +48,10 @@ export const authOptions = {
       const user = await User.findOne({ email: session.user.email });
       // 2. Assign the user id to the session
       session.user.id = user._id.toString();
+      session.user.role = user.role;
       // 3. Return session
 
-      const newSession = {
-        ...session,
-        user: {
-          ...session.user,
-          role: user.role,
-        },
-      };
-      return newSession;
+      return session;
     },
   },
 };
