@@ -9,10 +9,39 @@ import { Button } from "@material-tailwind/react";
 import { formatPrice } from "@/utils/helpers";
 import { useRouter } from "next/navigation";
 import axios from "axios";
+import { toast } from "react-toastify";
 
-const CartItems = ({ products = [], totalQty, totalPrice }) => {
+const CartItems = ({ products = [], totalQty, totalPrice, id }) => {
   const [busy, setBusy] = useState(false);
   const router = useRouter();
+
+  // console.log(products);
+
+  const handleCheckout = async () => {
+    try {
+      setBusy(true);
+      const res = await axios.post("/api/checkout", {
+        cartId: id,
+      });
+
+      const { error, url } = res.data;
+
+      console.log("err", error);
+      console.log("url", url);
+
+      if (error) {
+        toast.error(error);
+      } else {
+        // open the checkout url
+
+        window.location.href = url;
+      }
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setBusy(false);
+    }
+  };
 
   const updateCart = async (productId, quantity) => {
     try {
@@ -83,6 +112,7 @@ const CartItems = ({ products = [], totalQty, totalPrice }) => {
           className="bg-green-500 shadow-none hover:shadow-none focus:shadow-none focus:scale-105 active:scale-100"
           color="green"
           disabled={busy}
+          onClick={handleCheckout}
         >
           Checkout
         </Button>
