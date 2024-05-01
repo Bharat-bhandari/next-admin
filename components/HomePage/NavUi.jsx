@@ -7,11 +7,19 @@ import { PiBagSimple } from "react-icons/pi";
 import { signIn, signOut, useSession, getProviders } from "next-auth/react";
 import { IoIosArrowDown } from "react-icons/io";
 
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+
 import CartIcon from "./CartIcon";
+import NavModalContent from "./NavModalContent";
 
 const NavUi = ({ cartItemsCount }) => {
-  const [showModal, setShowModal] = useState(false);
-
   const { data: session } = useSession();
 
   const userName = session?.user?.name.split(" ")[0];
@@ -34,33 +42,33 @@ const NavUi = ({ cartItemsCount }) => {
     <div className="sticky top-0 z-20 text-sm text-white bg-black1">
       <div className="grid grid-cols-3 px-[2.5%] py-1">
         <div className="flex items-center gap-[20%]">
-          <button onClick={() => setShowModal(true)}>
-            <svg
-              preserveAspectRatio="xMidYMid meet"
-              data-bbox="44 84 112 32"
-              viewBox="44 84 112 32"
-              height="200"
-              width="200"
-              xmlns="http://www.w3.org/2000/svg"
-              data-type="shape"
-              role="presentation"
-              aria-hidden="true"
-              aria-label=""
-              fill="white"
-              className="h-4 text-white w-7 md:w-8"
-            >
-              <g>
-                <path d="M156 84v6H44v-6h112z"></path>
-                <path d="M156 110v6H44v-6h112z"></path>
-              </g>
-            </svg>
-          </button>
+          <Dialog>
+            <DialogTrigger>
+              <svg
+                preserveAspectRatio="xMidYMid meet"
+                data-bbox="44 84 112 32"
+                viewBox="44 84 112 32"
+                height="200"
+                width="200"
+                xmlns="http://www.w3.org/2000/svg"
+                data-type="shape"
+                role="presentation"
+                aria-hidden="true"
+                aria-label=""
+                fill="white"
+                className="h-4 text-white w-7 md:w-8"
+              >
+                <g>
+                  <path d="M156 84v6H44v-6h112z"></path>
+                  <path d="M156 110v6H44v-6h112z"></path>
+                </g>
+              </svg>
+            </DialogTrigger>
+            <DialogContent className="text-white border-none bg-black1">
+              <NavModalContent />
+            </DialogContent>
+          </Dialog>
 
-          {/* {showModal && (
-            <NavUiModal onClose={() => setShowModal(false)}>
-              Hello from the modal!
-            </NavUiModal>
-          )} */}
           <div className="hidden gap-6 md:flex ">
             <Link
               href={"/shop"}
@@ -72,7 +80,7 @@ const NavUi = ({ cartItemsCount }) => {
               href={"/"}
               className="text-white border-b border-transparent hover:text-white hover:border-white focus:outline-none"
             >
-              BLOGS
+              ABOUT US
             </Link>
             <Link
               href={"/"}
