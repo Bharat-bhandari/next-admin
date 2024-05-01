@@ -7,6 +7,8 @@ import { PiBagSimple } from "react-icons/pi";
 import { signIn, signOut, useSession, getProviders } from "next-auth/react";
 import { IoIosArrowDown } from "react-icons/io";
 
+import logo from "@/assets/images/HomePage/Logo.jpg";
+
 import {
   Dialog,
   DialogContent,
@@ -92,7 +94,7 @@ const NavUi = ({ cartItemsCount }) => {
         </div>
         <div className="flex justify-center">
           <Link href={"/"}>
-            <svg
+            {/* <svg
               preserveAspectRatio="xMidYMid meet"
               data-bbox="163.7 203.6 246.8 105.505"
               viewBox="163.7 203.6 246.8 105.505"
@@ -180,7 +182,15 @@ const NavUi = ({ cartItemsCount }) => {
                   data-color="1"
                 ></path>
               </g>
-            </svg>
+            </svg> */}
+
+            <Image
+              className="py-1"
+              src={logo}
+              width={90}
+              height={90}
+              alt="Picture of the author"
+            />
           </Link>
         </div>
         <div className="flex items-center justify-end gap-6">
