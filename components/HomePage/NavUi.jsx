@@ -238,7 +238,7 @@ const NavUi = ({ cartItemsCount }) => {
                       Profile
                     </Link>
                     <Link
-                      href="/properties/saved"
+                      href="/profile/orders"
                       className="block px-4 py-2 text-sm "
                       role="menuitem"
                       tabIndex="-1"
